@@ -1,0 +1,31 @@
+{ "name": "pimatic-freeboard",
+  "description": "The plugin description",
+  "author": "Your Name <you@example.com> (http://your-website)",
+  "main": "freeboard",
+  "files": [
+    "freeboard.coffee",
+    "README.md",
+    "freeboard-config-schema.coffee"
+  ],
+  "version": "0.0.1",
+  "homepage": "http://your-plugin-website",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pimatic/pimatic-plugin-template.git"
+  },
+  "configSchema": "freeboard-config-schema.coffee",
+  "dependencies": {
+    "fb": "git://github.com/Freeboard/freeboard"
+  },
+  "peerDependencies": {
+    "pimatic": "0.9.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  },
+  "scripts": {
+    "postinstall": ""
+  }
+}
